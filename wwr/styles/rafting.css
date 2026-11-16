@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #239169;
+    --secondary-color: #213e74;
+    --accent1-color: #110f4c;
+    --accent2-color: #b4c220;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    display: block;
+    /* I added this to look more similar to the example*/
+    margin-bottom: 10px;
+
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px
+}
+
+.socialmedia img {
+    max-height: 35px;
+    width: auto;
+    margin: 0 5px;
+    /* I added this to make my logos smaller */
+    width: auto;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(17, 15, 76, 0.75);
+    color: #fff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 320px;
+    background-color: rgba(118, 88, 88, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero article img {
+    float: right;
+    width: 90px;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.hero article p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
