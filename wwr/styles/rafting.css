@@ -75,7 +75,7 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(17, 15, 76, 0.75);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ article {
     bottom: 30px;
     right: 30px;
     width: 320px;
-    background-color: rgba(118, 88, 88, 0.9);
+    background-color: var(--accent2-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
